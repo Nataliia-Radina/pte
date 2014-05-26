@@ -194,6 +194,7 @@ ul {
 	display:inline;	
 	margin-right:50px;
 	padding-bottom:8px;
+    position: relative;
 }
 .menu_header > li > a {
 	text-transform:uppercase;	
@@ -245,12 +246,6 @@ ul {
 	background-color:#eff0f1;
 }
 
-.abonentu{
-	left:140px;
-}
-.press {
-	left:26px;
-}
 .drop_down.nav_menu{
 	top:26px;
 }
