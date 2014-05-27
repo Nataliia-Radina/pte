@@ -14,3 +14,13 @@ $('.main_image').slidesjs({
         effect: "fade"
     }
 });
+
+var on_top = $('.on_top')[0];
+
+$(document).scroll(function(e) {
+    if (document.body.scrollTop > 0 && on_top.style.display !== 'block') {
+        on_top.style.display = 'block';
+    } else if (document.body.scrollTop === 0 && on_top.style.display !== 'none') {
+        on_top.style.display = 'none';
+    }
+});
