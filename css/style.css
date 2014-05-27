@@ -149,6 +149,7 @@ img {
     background-position: 0px -104px;
     width: 18px;
     height: 16px;
+    margin-left: 8px;
 }
 
 .mail:hover {
@@ -302,19 +303,49 @@ ul {
 
 .main_image {
     margin-top: 20px;
+    position: relative;
+}
+
+.slidesjs-pagination {
+    list-style: none;
+    position: absolute;
+    top: 425px;
+    left: 875px;
+    display: block;
+    visibility: visible;
+    z-index: 999;
+}
+
+.slidesjs-pagination-item {
+    display: inline-block;
+    padding-right: 9px;
+}
+
+.slidesjs-pagination-item a {
+    color: transparent;
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-image: url('../img/slider-off.png');
+}
+
+.slidesjs-pagination-item a.active {
+    color: transparent;
+    display: block;
+    background-image: url('../img/slider-on.png');
 }
 
 .main_slogan {
     position: absolute;
     top: 450px;
-
+    z-index: 100;
 }
 
 .movie_button {
     top: 145px;
     margin-left: 854px;
     position: absolute;
-
+    z-index: 100;
 }
 
 .nav_link_main {
