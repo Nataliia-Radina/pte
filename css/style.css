@@ -168,19 +168,6 @@ img {
     background-position: 0px -130px;
 }
 
-/*.search-field{
- 	height:20px;
-	width:182px;
-	margin-left: 24px;
-	background-color: #f6f6fa;
-	border: 1px solid #b5b6b9;
- 	vertical-align:top;
- 	margin-top:36px;
- }
-.search-field:hover{
-	border: 1px solid #0070bb;
- }*/
-
 #search_on_site {
     margin-left: 22px;
     height: 22px;
@@ -188,9 +175,6 @@ img {
     padding: 0;
     border: 1px solid #b5b6b9;
 
-    /*background-color: transparent;
-    border: 0;
-    padding:0;*/
 }
 
 #search_on_site:hover {
@@ -449,7 +433,7 @@ ul {
 }
 
 .uppercase {
-    text-transform: uppercase;
+    text-transbutton: uppercase;
 
 }
 
@@ -607,7 +591,7 @@ label {
 .feedback_form button[type=reset]{
     margin-left:35px;
 }
-.feedback_form button:hover{
+.button:hover{
     background-color:#d2d2d6;
     border:1px solid #b1b1b2;
     color:#2a2a2a;
@@ -651,7 +635,7 @@ label {
 }
 .green-block{
     background-color: #f7f8f8;
-    padding: 0px 20px 25px 15px;
+
 }
 
 .footer{
@@ -667,6 +651,10 @@ label {
 }
 .main_text p{
     padding-top:10px;
+}
+
+.green-block.main_text{
+    padding: 0px 20px 25px 15px;
 }
 .main_content{
     margin:45px 0 110px 0;
@@ -808,12 +796,13 @@ label {
 .vacancy_main {
     width:550px;
     margin-bottom:30px;
+    float:left;
 }
 .vacancy_main a{
     color:#0070bb;
 }
 .vacancy_main li{
-    padding-top:5px;
+    padding-top:10px;
 }
 .vacancy_detail{
     font-weight:bold;
@@ -838,6 +827,59 @@ label {
 }
 .quest.green-block{
     float:right;
+    padding: 10px 10px 40px 10px;
+
+}
+.quest_form{
+
+    font-size:12px;
+    line-height: 18px;
+}
+
+.quest_form input {
+    border:1px solid #dbdbdb;
+    width: 240px;
+    height:25px;
+    margin:5px 10px;
+}
+
+#position{
+
+    height:50px;
+
+}
+.quest_form textarea {
+    border:1px solid #dbdbdb;
+    width:238px;
+    height:50px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+#experience{
+    height:90px;
+}
+#e-mail{
+    margin-bottom:0;
+}
+.quest_form button {
+    float:right;
+    margin-right:10px;
+
+
+}
+
+.quest.green-block h3 {
+    font-weight:bold;
+    text-align:center;
+    margin-bottom: 20px;
+}
+
+.quest_form span{
+    font-size:10px;
+    font-style:italic;
+    float:right;
+    margin-right:10px;
+    display:block;
 }
 /**
  * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
