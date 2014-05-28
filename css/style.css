@@ -8,6 +8,8 @@ body, html {
     min-height: 100%;
     margin: 0;
     padding-bottom: 45px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
     font: normal 14px/22px Tahoma, sans-serif;
     color: #2a2a2a;
     position: relative;
@@ -559,6 +561,7 @@ ul {
 .main {
     padding: 45px 0 90px 0;
     box-sizing: border-box;
+    -moz-box-sizing: border-box;
 }
 
 .heading {
@@ -701,7 +704,7 @@ label {
 }
 
 .heading.position {
-    padding-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 .navigation {
@@ -779,12 +782,12 @@ label {
 
 }
 
-.heading.honors {
-    margin-bottom: 45px;
+.heading {
+    margin-bottom: 35px;
 }
 
-.orders_main .heading {
-    margin-bottom: 35px;
+.heading.honors {
+    margin-bottom: 45px;
 }
 
 .main_content.orders_main table caption {
