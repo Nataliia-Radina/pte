@@ -560,6 +560,12 @@ ul {
     line-height: 18px;
 }
 
+.feedback_aside{
+    margin-top:40px;
+    font-size:12px;
+    line-height: 18px;
+}
+
 .question.feedback {
     height: 42px;
     width: 390px;
@@ -610,9 +616,9 @@ label {
 .feedback_form button[type=reset]{
     margin-left: 35px;
 }
-.feedback_form button:hover{
+.button:hover{
     background-color: #d2d2d6;
-    border:1px solid #b1b1b2;
+    border: 1px solid #b1b1b2;
     color: #2a2a2a;
 }
 
@@ -643,120 +649,109 @@ label {
 }
 
 .aside.green-block{
-    width: 244px;
-    color: #8e8e8e;
-    line-height: 22px;
-    font-size: 12px;
-    float: right;
+
+    width:244px;
+    color:#8e8e8e;
+    line-height:22px;
+    font-size:12px;
+    float:right;
     padding: 10px 0px 25px 10px;
-    margin-top: 45px;
+    margin-top:45px;
 }
-.green-block {
+.green-block{
     background-color: #f7f8f8;
 }
 
 .footer{
     clear: both;
 }
+
 .figures {
     font-weight: bold;
     font-size: 18px;
 }
 
-.bold {
+.bold{
     font-weight: bold;
 }
+
 .main_text p {
     padding-top: 10px;
-}
-
-.main_content {
-    margin: 45px 0 110px 0;
-    float: left;
-    width: 670px;
 }
 
 .green-block.main_text {
     padding: 0px 20px 25px 15px;
 }
 
-.main_content {
+.main_content{
     margin:45px 0 110px 0;
     float:left;
     width:670px;
 }
-.heading.position {
-    padding-bottom: 15px;
+.heading.position{
+    padding-bottom:15px;
 }
-.navigation {
-    color :#8e8e8e;
-    font: normal 17px/22px 'PT Sans Narrow', sans-serif;
+.navigation{
+    color:#8e8e8e;
+    font: normal 14px/22px 'PT Sans Narrow', sans-serif;
     margin-top: 35px;
     margin-bottom: 25px;
 }
 .navigation a {
-    color: #8e8e8e;
+    color:#8e8e8e;
     font: normal 14px/22px 'PT Sans Narrow', sans-serif;
 }
-
-.ceo_picture {
-    width: 190px;
-    height: 370px;
-    float: left;
-    padding-right: 40px;
+.ceo_picture{
+    width:190px;
+    height:370px;
+    float:left;
+    padding-right:40px;
 }
-
-.ceo_picture a {
-    color: #2a2a2a;
+.ceo_picture a{
+    color:#2a2a2a;
     font: bold 18px/20px 'PT Sans Narrow', sans-serif;
-    text-decoration: underline;
+    text-decoration:underline;
 }
 
-.ceo_picture a:hover {
-    text-decoration: none;
+.ceo_picture a:hover{
+    text-decoration:none;
 }
-.ceo_picture a.selected {
-    text-decoration: none;
+.ceo_picture a.selected{
+    text-decoration:none;
 }
 .ceo_picture  p {
     font: normal 14px/20px Tahoma, sans-serif;
-    margin-top: 16px;
+    margin-top:16px;
 
 }
-
-.ceo_gallery {
-    clear: both;
-    height: 740px;
+.ceo_gallery{
+    clear:both;
+    height:740px;
     padding: 35px 0 100px 0;
 }
 
-.ceo_gallery img {
-    padding-bottom: 5px;
+.ceo_gallery img{
+    padding-bottom:5px;
 }
-
-.honor_block p.name {
-    color: #2a2a2a;
+.honor_block p.name{
+    color:#2a2a2a;
     font: bold 18px/20px 'PT Sans Narrow', sans-serif;
-    padding-top: 0;
+    padding-top:0;
 }
-
 .honor_block p {
-    padding-top: 10px;
+    padding-top:10px;
 }
-
-.honor_text {
+.honor_text{
     width: 620px;
-    display: inline-block;
+    display:inline-block;
     padding-left: 12px;
 }
 
 .honor_block {
     padding: 0 0 50px 0;
-
 }
-
 .honor_block img {
-    vertical-align: top;
+    vertical-align:top;
 
 }
 
@@ -765,117 +760,103 @@ label {
 }
 
 .heading.honors {
-    margin-bottom: 45px;
+    margin-bottom:45px;
 }
 
 .main_content.orders_main table caption {
     color: #0070bb;
-    text-align: left;
-    margin-bottom: 20px;
+    text-align:left;
+    margin-bottom:20px;
 }
 
-.orders_main a {
+.orders_main a{
     color: #0070bb;
 }
+ .main_content.orders_main{
+     margin-top:0;
+ }
 
-.main_content.orders_main {
-    margin-top: 0;
-}
-
-.main_content.orders_main table {
+.main_content.orders_main table{
     margin-top: 45px;
     border-collapse: collapse;
 }
-
 .main_content.orders_main table, .main_content.orders_main table th, .main_content.orders_main table td {
-    border: 1px solid #a0a0a0;
+    border:1px solid #a0a0a0;
 }
 
 .main_content.orders_main table th {
     padding: 5px;
 }
-
-.main_content.orders_main table td {
+.main_content.orders_main table td{
     padding: 25px 5px;
-    vertical-align: top;
+    vertical-align:top;
 }
- td.center {
+ td.center{
   text-align:center;
  }
-.main_content.orders_main table th {
+.main_content.orders_main table th{
    background-color: #f0f0f0;
 }
 
-.main_content.orders_main table a {
-    color: #2a2a2a;
-}
-
-.main_content.orders_main table ul {
-    margin-top: 20px;
-    list-style-type: disc;
-    padding-left: 20px
-}
-
-.aside-right a {
+.main_content.orders_main table a{
     color:#2a2a2a;
 }
-
-.aside-right li {
-    padding-top: 20px;
+.main_content.orders_main table ul{
+    margin-top: 20px;
+    list-style-type:disc;
+    padding-left:20px
+}
+.honors-right a {
+    color:#2a2a2a;
+}
+.honors-right li{
+    padding-top:20px;
+}
+.honors-right {
+    float:right;
+    padding-right:45px;
 }
 
-.aside-right {
-    float: right;
-    padding-right: 45px;
-}
-
-.aside-right li.first_item {
+.honors-right li.first_item{
     padding:0;
 }
-
 .vacancy_main {
     width:550px;
     margin-bottom:30px;
     float:left;
 }
-
-.vacancy_main a {
+.vacancy_main a{
     color:#0070bb;
 }
-
-.vacancy_main li {
-    padding-top: 10px;
+.vacancy_main li{
+    padding-top:10px;
 }
-
-.vacancy_detail {
-    font-weight: bold;
+.vacancy_detail{
+    font-weight:bold;
 }
-
-.vacancy_detail ul {
-    font-weight: normal;
+.vacancy_detail ul{
+    font-weight:normal;
     list-style-type: disc;
 }
-
-.vacancy_main p {
-    font-weight: bold;
-    padding-top: 10px;
+.vacancy_main p{
+    font-weight:bold;
+    padding-top:10px;
 }
 
 .hide {
-    padding-top: 10px;
-    font-size: 12px;
-    display: block;
+    padding-top:10px;
+    font-size:12px;
+    display:block;
 }
-
-.hidden {
+.hidden{
     margin: 10px 0  30px 20px;
-}
 
-.quest.green-block {
+}
+.quest.green-block{
     float:right;
     padding: 10px 10px 40px 10px;
-}
 
+}
 .quest_form{
 
     font-size:12px;
@@ -927,7 +908,6 @@ label {
     margin-right:10px;
     display:block;
 }
-
 /**
  * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
  * http://cssreset.com
