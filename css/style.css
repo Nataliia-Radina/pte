@@ -806,19 +806,25 @@ label {
     list-style-type:disc;
     padding-left:20px
 }
-.honors-right a {
-    color:#2a2a2a;
-}
-.honors-right li{
-    padding-top:20px;
-}
-.honors-right {
-    float:right;
-    padding-right:45px;
+.aside-right a {
+    color: #2a2a2a;
 }
 
-.honors-right li.first_item{
-    padding:0;
+.aside-right a:hover {
+    text-decoration: none;
+}
+
+.aside-right li {
+    padding-top: 20px;
+}
+
+.aside-right {
+    float: right;
+    padding-right: 45px;
+}
+
+.aside-right li.first_item {
+    padding: 0;
 }
 .vacancy_main {
     width:550px;
