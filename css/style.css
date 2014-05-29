@@ -311,6 +311,7 @@ ul {
 
 .main_image {
     margin-top: 20px;
+    margin-bottom:35px;
     position: relative;
 
 }
@@ -439,6 +440,7 @@ ul {
 
 .page_content {
     margin-top: 20px;
+    margin-bottom:20px;
 }
 
 .uppercase {
@@ -456,7 +458,7 @@ ul {
     width: 33%;
     display: inline-block;
     vertical-align: top;
-    margin: 30px 0 65px 0;
+    margin: 0px 0 40px 0;
 
 }
 
@@ -486,8 +488,6 @@ ul {
     bottom: 0px;
     height: 45px;
 
-    font-size: 14px;
-    font-family: Tahoma, san-serif;
 }
 
 .footer .wrapper {
@@ -552,19 +552,15 @@ ul {
     font: bold 23px 'PT Sans Narrow', sans-serif;
     color: #0070bb;
     font-weight: bold;
+    margin-bottom: 35px;
 }
 
 .feedback_form {
-    margin-top: 40px;
     font-size: 12px;
     line-height: 18px;
 }
 
-.feedback_aside {
-    margin-top: 40px;
-    font-size: 12px;
-    line-height: 18px;
-}
+
 
 .question.feedback {
     height: 42px;
@@ -596,7 +592,7 @@ label {
 
 .feedback_form img {
     clear: both;
-    margin: 0px 0px 4px 120px;
+    margin: 10px 0px 4px 120px;
     display: block;
 }
 
@@ -624,14 +620,6 @@ label {
     color: #2a2a2a;
 }
 
-.about_company.main_image {
-    margin-bottom: 35px;
-}
-
-.main_image img {
-    position: relative;
-}
-
 .summary {
     width: 522px;
     height: 131px;
@@ -653,18 +641,43 @@ label {
     color: #58595b;
     padding: 15px 10px 0 50px;
 }
+.main_content.main_text img{
+    padding:5px 2px 5px 0;
+}
+.aside{
 
-.aside.green-block {
+    width: 240px;
+    float: right;
 
-    width: 244px;
+
+}
+.aside li{
+    margin: 20px 0;
+}
+
+.aside a {
+
+    color: #2a2a2a;
+}
+
+.aside a:hover {
+
+    text-decoration: none;
+}
+
+.first_item {
+    margin-top: 0;
+}
+
+.aside.green-block{
+
     color: #8e8e8e;
     line-height: 22px;
     font-size: 12px;
-    float: right;
-    padding: 10px 0px 25px 10px;
     margin-top: 45px;
-}
+    padding: 10px 0px 25px 10px;
 
+}
 .green-block {
     background-color: #f7f8f8;
 }
@@ -682,8 +695,8 @@ label {
     font-weight: bold;
 }
 
-.main_text p {
-    padding-top: 10px;
+.main_text p  {
+   margin: 10px 0;
 }
 
 .green-block.main_text {
@@ -696,9 +709,6 @@ label {
     width: 670px;
 }
 
-.heading.position {
-    margin-bottom: 15px;
-}
 
 .navigation {
     color: #8e8e8e;
@@ -749,157 +759,201 @@ label {
     padding-bottom: 5px;
 }
 
-.honor_block p.name {
+
+p.name {
     color: #2a2a2a;
     font: bold 18px/20px 'PT Sans Narrow', sans-serif;
     padding-top: 0;
 }
 
-.honor_block p {
-    padding-top: 10px;
-}
 
-.honor_text {
-    width: 620px;
+.ceo_text {
+    width: 680px;
     display: inline-block;
-    padding-left: 12px;
+    padding: 10px;
 }
 
-.honor_block {
-    padding: 0 0 50px 0;
+.ceo_block {
+    margin: 0 0 40px 0;
 }
 
-.honor_block img {
+.ceo_block img {
+    padding-right: 10px;
     vertical-align: top;
 
 }
 
-.heading {
-    margin-bottom: 35px;
+.honor_block p {
+
+    margin-bottom: 10px;
+
 }
 
+.honor_text {
+
+    width: 620px;
+    display: inline-block;
+    padding-left: 12px;
+
+}
+
+.honor_block {
+
+    margin: 0 0 55px 0;
+}
+
+.honor_block img {
+
+    vertical-align: top;
+
+}
+
+
 .heading.honors {
-    margin-bottom: 45px;
+
+    margin-bottom: 40px;
+
 }
 
 .main_content.orders_main table caption {
+
     color: #0070bb;
     text-align: left;
     margin-bottom: 20px;
 }
 
 .orders_main a {
-    color: #0070bb;
-}
 
+    color: #0070bb;
+
+}
+.orders_main a:hover{
+
+    text-decoration:none;
+
+}
 .main_content.orders_main {
+
     margin-top: 0;
 }
 
 .main_content.orders_main table {
+
     margin-top: 45px;
     border-collapse: collapse;
+
 }
 
 .main_content.orders_main table, .main_content.orders_main table th, .main_content.orders_main table td {
+
     border: 1px solid #a0a0a0;
+
 }
 
 .main_content.orders_main table th {
+
     padding: 5px;
+
 }
 
 .main_content.orders_main table td {
+
     padding: 25px 5px;
     vertical-align: top;
+
 }
 
 td.center {
+
     text-align: center;
+
 }
 
 .main_content.orders_main table th {
+
     background-color: #f0f0f0;
+
 }
 
 .main_content.orders_main table a {
+
     color: #2a2a2a;
+
 }
 
 .main_content.orders_main table ul {
+
     margin-top: 20px;
     list-style-type: disc;
     padding-left: 20px
+
 }
 
-.aside-right a {
-    color: #2a2a2a;
-}
 
-.aside-right a:hover {
-    text-decoration: none;
-}
-
-.aside-right li {
-    padding-top: 20px;
-}
-
-.aside-right {
-    float: right;
-    padding-right: 45px;
-}
-
-.aside-right li.first_item {
-    padding: 0;
-}
 
 .vacancy_main {
+
     width: 550px;
     margin-bottom: 30px;
     float: left;
+
 }
 
 .vacancy_main a {
+
     color: #0070bb;
+
 }
 
 .vacancy_main li {
-    padding-top: 10px;
+
+    margin: 10px 0;
+
+}
+
+.vacancy_main li.first_item{
+    margin-top: 0;
 }
 
 .vacancy_detail {
+
     font-weight: bold;
 }
 
+
 .vacancy_detail ul {
+
     font-weight: normal;
     list-style-type: disc;
 }
 
 .vacancy_main p {
+
     font-weight: bold;
-    padding-top: 10px;
+    margin-bottom: 10px;
 }
 
 .hide {
+
     padding-top: 10px;
     font-size: 12px;
     display: block;
 }
 
 .hidden {
+
     margin: 10px 0 30px 20px;
 
 }
 
 .quest.green-block {
+
     float: right;
     padding: 10px 10px 40px 10px;
 
 }
 
 .quest_form {
-
     font-size: 12px;
     line-height: 18px;
 }
@@ -911,6 +965,16 @@ td.center {
     margin: 5px 10px;
 }
 
+
+.quest_form .required {
+    border: 1px solid #ec555c;
+}
+
+.quest_form .required::after {
+    content: "123";
+}
+
+
 #position {
 
     height: 50px;
@@ -918,6 +982,7 @@ td.center {
 }
 
 .quest_form textarea {
+
     border: 1px solid #dbdbdb;
     width: 238px;
     height: 50px;
@@ -926,20 +991,26 @@ td.center {
 }
 
 #experience {
+
     height: 90px;
+
 }
 
 #e-mail {
+
     margin-bottom: 0;
+
 }
 
 .quest_form button {
+
     float: right;
     margin-right: 10px;
 
 }
 
 .quest.green-block h3 {
+
     font-weight: bold;
     text-align: center;
     margin-bottom: 20px;
@@ -953,6 +1024,84 @@ td.center {
     display: block;
 }
 
+.bold{
+    font-weight:bold;
+}
+
+.aside.abonent-right{
+    margin-top:110px;
+}
+.aside.abonent-right p{
+    font-weight:bold;
+}
+
+.image{
+    margin-bottom:20px;
+}
+
+.main.press h2 {
+    margin-top:45px;
+}
+
+.hor_line{
+
+    border-bottom: 1px solid #a0a0a0;
+
+}
+.pages{
+    text-align:right;
+}
+
+.pages a {
+    text-decoration: none;
+    color: #2a2a2a;
+}
+
+.pages a:hover {
+    text-decoration: underline;
+}
+
+.pages a.selected {
+    color: #0070bb;
+    text-decoration:underline;
+}
+
+.news_year li {
+
+    display:inline;
+
+}
+
+.news_year {
+
+    margin-bottom: 40px;
+
+}
+.news_year a {
+
+    color: #2a2a2a;
+    text-decoration: none;
+
+}
+
+.news_year li.selected > a {
+
+    color: #0070bb;
+    font-weight:bold;
+
+}
+
+.news_year li::before{
+
+    content: " | ";
+
+}
+
+.news_year li:first-child::before {
+
+    content: none;
+
+}
 /**
  * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
  * http://cssreset.com
