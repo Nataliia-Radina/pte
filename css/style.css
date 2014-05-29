@@ -644,13 +644,11 @@ label {
 .main_content.main_text img{
     padding:5px 2px 5px 0;
 }
-.aside{
-
+.aside {
     width: 240px;
     float: right;
-
-
 }
+
 .aside li{
     margin: 20px 0;
 }
@@ -1100,8 +1098,32 @@ td.center {
 .news_year li:first-child::before {
 
     content: none;
-
 }
+
+.report-block{
+    border-top: 1px solid #a0a0a0;
+    clear:both;
+}
+.report_month{
+    float:left;
+    width: 70px;
+    display:inline-block;
+    height: 175px;
+}
+
+.part-1{
+    border-bottom: 1px solid #e5e5e5;
+    float:left;
+    width: 600px;
+    height: 80px;
+}
+
+.part-1{
+    float:left;
+    width: 600px;
+    height: 100px;
+}
+
 /**
  * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
  * http://cssreset.com
