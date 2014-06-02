@@ -7,6 +7,9 @@
           type='text/css'>
     <title>Вакансии
     </title>
+    <!--[if IE 8]>
+    <link href="css/ie-style.css" rel="stylesheet" type="text/css">
+    <![endif]-->
 </head>
 <body>
 <div class="main_container">
@@ -71,7 +74,7 @@
                         <li>
                             <a href="#">Реконструкция</a>
 
-                            <ul class="districts">
+                            <ul class="sub_drop_down">
                                 <li><a href="#">Петроградский район</a></li>
                                 <li><a href="#">Курортный район</a></li>
                                 <li><a href="#">Петродворцовый район</a></li>
@@ -267,26 +270,27 @@
                     <li><a href="#">Ведущий инженер отдела исполнительной документации</a></li>
                 </ul>
             </div>
-        <div class="quest green-block">
+        <div class="quest green_block">
             <h3>Анкета соискателя</h3>
             <form action="" method="" class="quest_form">
+                <div class="fill_in_field"><div><img src="img/triangle.png" width="14" height="10"><p>Заполните поле</p></div></div>
                 <label for="surname">Фамилия</label>
-                <input type="text" id="surname"><br>
+                <input class="invalid" type="text" id="surname">
                 <label for="name">Имя</label>
-                <input type="text" id="name"><br>
+                <input type="text" id="name">
                 <label for="middle_name">Отчество</label>
-                <input type="text" id="middle_name"><br>
+                <input type="text" id="middle_name">
                 <label for="date_of_birth">Дата рождения</label>
-                <input type="text" id="date_of_birth"><br>
+                <input type="text" id="date_of_birth">
                 <label for="position">Желаемая должность</label>
-                <input type="text" id="position"><br>
-                <label  for="education">Образование</label><textarea class="required" id="education"></textarea><br>
-                <label for="experience">Опыт работы</label><textarea id="experience"></textarea><br>
+                <input type="text" id="position">
+                <label  for="education">Образование</label><textarea id="education"></textarea>
+                <label for="experience">Опыт работы</label><textarea id="experience"></textarea>
                 <label for="phone_number">Телефон</label>
-                <input type="text" id="phone_number"><br>
+                <input type="text" id="phone_number">
                 <label for="e-mail">E-mail</label>
-                <input type="emeil" id="e-mail"><br>
-                <span>Все поля обязательны для заполнения</span></br>
+                <input type="emeil" id="e-mail">
+                <span><p>Все поля обязательны для заполнения</p></span>
                 <button class="button" type="submit" value="submit">Отправить</button>
             </form>
         </div>

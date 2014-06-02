@@ -7,6 +7,9 @@
           type='text/css'>
     <title>Обратная связь
     </title>
+    <!--[if IE 8]>
+    <link href="css/ie-style.css" rel="stylesheet" type="text/css">
+    <![endif]-->
 </head>
 <body>
 <div class="main_container">
@@ -71,7 +74,7 @@
                         <li>
                             <a href="#">Реконструкция</a>
 
-                            <ul class="districts">
+                            <ul class="sub_drop_down">
                                 <li><a href="#">Петроградский район</a></li>
                                 <li><a href="#">Курортный район</a></li>
                                 <li><a href="#">Петродворцовый район</a></li>
@@ -117,11 +120,11 @@
         <div class="main">
             <h1 class="heading">Форма обратной связи</h1>
             <form class="feedback_form" action="" method="">
-                <label for="question">Введите текст вопроса</label><textarea id="question" class="question feedback"></textarea></br>
-                <label for="user_name">Ваше имя</label><input id="user_name"class="feedback" type="text"></br>
-                   <label for="e-mail">Ваш e-mail</label><input id="e-mail" class="feedback" type="email"></br>
+                <label for="question">Введите текст вопроса</label><textarea id="question" ></textarea>
+                <label for="user_name">Ваше имя</label><input id="user_name" type="text">
+                   <label for="e-mail">Ваш e-mail</label><input id="e-mail"  type="email">
                 <img src="img/captcha.png" width="180px" height="40px">
-                       <label for="captcha">Введите текст с картинки</label><input id="captcha" class="captcha feedback" type="text"></br>
+                       <label for="captcha">Введите текст с картинки</label><input id="captcha" type="text">
                 <button  type="submit" value="Submit" class="button">Отправить</button>
                 <button  type="reset" value="Reset" class="button">Очистить</button>
             </form>
