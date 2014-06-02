@@ -985,14 +985,15 @@ td.center {
     width: 240px;
     height: 25px;
     margin-top: 15px;
-    display: inline-block;
-    float:right;
+
 }
 
 .quest_form label {
     margin: 20px 10px 0 0px;
     display: inline-block;
     width: 90px;
+    text-align: right;
+    float: left;
 }
 
 .quest_form .invalid {
@@ -1031,8 +1032,7 @@ td.center {
     width: 238px;
     height: 50px;
     margin: 15px 0 0px 0px;
-    display: inline-block;
-    float:right;
+
 }
 
 #experience {
@@ -1054,10 +1054,7 @@ td.center {
     text-align: center;
     margin-bottom: 5px;
 }
-.quest_form span {
-    display:block;
-    float: right;
-}
+
 .quest_form p {
     font-size: 10px;
     font-style: italic;
