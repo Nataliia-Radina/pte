@@ -1200,7 +1200,9 @@ td.center {
 
     margin-top:0;
 }
-
+.news_text {
+    margin-bottom: 40px;
+}
 .news_text a {
     color:  #0070bb;
     text-decoration: none;
