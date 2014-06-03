@@ -1,4 +1,4 @@
-$(function(){
+ $(function(){
     $('.main_image').slidesjs({
         width: 949,
         height: 449,
@@ -27,4 +27,8 @@ $(function(){
     });
 
     $('.expander').simpleexpand();
+
+    $('.hide').click(function(){
+        this.parentNode.style.display = 'none';
+    })
 });
