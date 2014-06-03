@@ -1120,13 +1120,13 @@ td.center {
 
 }
 
-.news_year li::before{
+.news_year li:before{
 
     content: " | ";
 
 }
 
-.news_year li:first-child::before {
+.news_year li:first-child:before {
 
     content: none;
 }
@@ -1199,7 +1199,14 @@ td.center {
 .main_content.main_text.reconstruction-main {
 
     margin-top:0;
+}
 
+.news_text a {
+    color:  #0070bb;
+    text-decoration: none;
+}
+.news_text a:hover {
+    text-decoration: underline;
 }
 /**
  * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)

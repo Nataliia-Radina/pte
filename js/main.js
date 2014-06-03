@@ -24,3 +24,5 @@ $(document).scroll(function(e) {
         on_top.style.display = 'none';
     }
 });
+
+$('.expander').simpleexpand();
