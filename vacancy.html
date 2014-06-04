@@ -5,8 +5,10 @@
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=cyrillic-ext' rel='stylesheet'
           type='text/css'>
-    <title>Вакансии
-    </title>
+    <title>Вакансии</title>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.slides.min.js"></script>
+    <script src="js/simple-expand.min.js"></script>
     <!--[if IE 8]>
     <link href="css/ie-style.css" rel="stylesheet" type="text/css">
     <![endif]-->
@@ -125,8 +127,8 @@
             <h1 class="heading">Вакансии</h1>
             <div class="vacancy_main">
                 <ul>
-                    <li class="first_item"><a href="#">Заместитель начальника отдела подготовки сметной документации</a>
-                        <div class="hidden">
+                    <li class="first_item"><a class="expander" href="#">Заместитель начальника отдела подготовки сметной документации</a>
+                        <div class="content hidden">
                         <ul class="vacancy_detail">
                             <li>Обязанности:
                                 <ul>
@@ -172,8 +174,8 @@
                         <a class="hide" href="#">Свернуть</a>
                             </div>
                     </li>
-                    <li><a href="#">Заместитель начальника управления энергосбыта</a>
-                        <div class="hidden">
+                    <li><a class="expander" href="#">Заместитель начальника управления энергосбыта</a>
+                        <div class="hidden content">
                             <ul class="vacancy_detail">
                                 <li>Обязанности:
                                     <ul>
@@ -218,8 +220,8 @@
                                 <a href="mailto:office@ptenergo.ru">office@ptenergo.ru</a> или по факсу 334-50-60</p>
                             <a class="hide" href="#">Свернуть</a></div>
                     </li>
-                    <li><a href="#">Начальник отдела тарифного регулирования</a>
-                        <div class="hidden">
+                    <li><a class="expander" href="#">Начальник отдела тарифного регулирования</a>
+                        <div class="hidden content">
                             <ul class="vacancy_detail">
                                 <li>Обязанности:
                                     <ul>
@@ -308,5 +310,6 @@
     </div>
     <div class="on_top"><a href=""><img src="img/on-top.png" width="17px" height="10px">наверх</a></div>
 </div>
+<script src="./js/main.js"></script>
 </body>
 </html>

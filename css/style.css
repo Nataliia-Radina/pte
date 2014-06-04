@@ -1006,6 +1006,8 @@ td.center {
     border: 1px solid #ec555c;
     background-color: #ffffff;
     position: absolute;
+    top: 40px;
+    left: 110px;
 
 }
 .fill_in_field div {
