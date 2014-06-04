@@ -76,7 +76,7 @@ img {
     font-size: 12px;
 }
 
-.hover {
+.drop_down.location_menu a {
     width: 85px;
     height: 18px;
     padding: 4px 0 0 4px;
@@ -84,7 +84,7 @@ img {
     background-color: #e1e1e6;
 }
 
-.hover:hover {
+.drop_down.location_menu a:hover {
     background-color: #f6f6fa;
 }
 
@@ -633,6 +633,8 @@ ul {
     height: 132px;
     background-color: white;
     opacity: 0.8;
+    -moz-opacity: 0.80;
+    filter: alpha(opacity=80);
     position: absolute;
     bottom: 0px;
     right:0;
@@ -682,7 +684,7 @@ ul {
 }
 
 
-.aside li.first_item {
+.aside li:first-child {
     margin-top: 0;
 }
 
@@ -720,7 +722,7 @@ ul {
     padding: 10px 15px 15px 15px;
 }
 
-.green_block.main_text .first_item {
+.green_block.main_text p:first-child {
     margin-top: 0;
 }
 .main_content {
@@ -925,59 +927,48 @@ td.center {
 }
 
 .vacancy_main li {
-
     margin: 10px 0;
-
 }
 
-.vacancy_main li.first_item {
+.vacancy_main li:first-child {
     margin-top: 0;
 }
 
 .vacancy_detail {
-
     font-weight: bold;
 }
 
-
 .vacancy_detail ul {
-
     font-weight: normal;
     list-style-type: disc;
 }
 
 .vacancy_main p {
-
     font-weight: bold;
     margin-bottom: 10px;
 }
 
 .hide {
-
     padding-top: 10px;
     font-size: 12px;
     display: block;
 }
 
 .hidden {
-
     margin: 10px 0 30px 20px;
-
 }
 
 .quest.green_block {
-
     float: right;
-    padding: 10px 10px 40px 10px;
-
-
+    padding: 10px 10px 40px 20px;
+    margin-bottom: 100px;
 }
 
 .quest_form {
     font-size: 12px;
     line-height: 18px;
     position: relative;
-    width: 370px;
+    width: 350px;
 }
 
 .quest_form input {
@@ -989,7 +980,7 @@ td.center {
 }
 
 .quest_form label {
-    margin: 20px 10px 0 0px;
+    margin: 20px 10px 0 0;
     display: inline-block;
     width: 90px;
     text-align: right;
@@ -1006,8 +997,8 @@ td.center {
     border: 1px solid #ec555c;
     background-color: #ffffff;
     position: absolute;
-    top: 40px;
-    left: 110px;
+    top: 52px;
+    left: 106px;
 
 }
 .fill_in_field div {
@@ -1034,7 +1025,6 @@ td.center {
     width: 238px;
     height: 50px;
     margin: 15px 0 0px 0px;
-
 }
 
 #experience {
@@ -1131,13 +1121,13 @@ td.center {
 
 }
 
-.news_year li::before{
+.news_year li:before{
 
     content: " | ";
 
 }
 
-.news_year li:first-child::before {
+.news_year li:first-child:before {
 
     content: none;
 }
@@ -1210,25 +1200,25 @@ td.center {
 .main_content.main_text.reconstruction-main {
 
     margin-top:0;
-
+}
+.news_text {
+    margin-bottom: 40px;
+}
+.news_text a {
+    color:  #0070bb;
+    text-decoration: none;
+}
+.news_text a:hover {
+    text-decoration: underline;
 }
 /**
  * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
  * http://cssreset.com
  */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p, img, ul, li,
+form, label,
+table, caption, tbody, tfoot, thead, tr, th, td {
     margin: 0;
     padding: 0;
     border: 0;
