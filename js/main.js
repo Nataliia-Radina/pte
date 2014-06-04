@@ -11,9 +11,20 @@
             pauseOnHover: false
         },
         navigation: {
-            active: false,
+            active: true,
             effect: "fade"
+        },
+        callback: {
+            loaded: function(){
+                // hide navigation and pagination
+                $('.slidesjs-navigation').hide(0);
+            }
         }
+    });
+
+    $(".slidesjs-slide").click(function(e){
+        e.preventDefault();
+        $('.slidesjs-next.slidesjs-navigation').trigger('click');
     });
 
     var on_top = $('.on_top')[0];
