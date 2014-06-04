@@ -1207,6 +1207,9 @@ td.center {
     color: #2a2a2a;
 }
 
+.reconstruction_main {
+    margin-bottom: 60px;
+}
 .reconstruction_main li{
     margin: 15px 0;
 }
@@ -1218,16 +1221,21 @@ td.center {
 .map{
     position:relative;
     width: 624px;
-    height: 302px;
+    height: 552px;
 }
 
 .map img{
-    position:absolute;
+    position: absolute;
+}
+
+.hint, .hover {
+    display: none;
 }
 
 .hint.region-2 {
     margin-left: 246px;
     margin-top: 11px;
+
 }
 
 .hint.region-3 {
@@ -1249,6 +1257,7 @@ td.center {
     margin-top: 359px;
     margin-left: 454px;
 }
+
 /**
  * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
  * http://cssreset.com
