@@ -5,7 +5,7 @@
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=cyrillic-ext' rel='stylesheet'
           type='text/css'>
-    <title>Обратная связь</title>
+    <title>Реконструкция</title>
     <script src="js/jquery-1.11.1.min.js"></script>
     <script src="js/jquery.slides.min.js"></script>
     <!--[if IE 8]>
@@ -14,7 +14,7 @@
 </head>
 <body>
 <div class="main_container">
-<div class="background_header"></div>
+    <div class="background_header"></div>
     <div class="container_header wrapper">
         <div class="header">
             <div class="pte_logo">
@@ -117,20 +117,120 @@
             </ul>
         </div>
     </div>
+
     <div class="wrapper">
-        <div class="main">
-            <h1 class="heading">Форма обратной связи</h1>
-            <form class="feedback_form" action="" method="">
-                <label for="question">Введите текст вопроса</label><textarea id="question" ></textarea>
-                <label for="user_name">Ваше имя</label><input id="user_name" type="text">
-                   <label for="e-mail">Ваш e-mail</label><input id="e-mail"  type="email">
-                <img src="img/captcha.png" width="180px" height="40px">
-                       <label for="captcha">Введите текст с картинки</label><input id="captcha" type="text">
-                <button  type="submit" value="Submit" class="button">Отправить</button>
-                <button  type="reset" value="Reset" class="button">Очистить</button>
-            </form>
+        <div class="navigation"><a href="#"><span class="uppercase">О компании</span></a> &#62; Реконструкция</div>
+        <div class="reconstruction_main">
+            <h1 class="heading">Реконструкция системы теплоснабжения районов Санкт-Петербурга</h1>
+            <ul><li><a href="#">Центральный и Адмиралтейский районы</a></li>
+                <li><a href="#">Петроградский район</a></li>
+                <li><a href="#">Курортный район</a></li>
+                <li><a href="#">Петродворцовый район</a></li>
+                <li><a href="#">Пушкинский район</a></li>
+            </ul>
+            <div class="map">
+                <map name="regions">
+                    <area class="region-2" shape="poly" href="#" title="" coords="
+36,37,
+27,60,
+49,20,
+67,10,
+70,20,
+92,21,
+100,12,
+124,3,
+136,8,
+171,3,
+192,24,
+196,34,
+230,46,
+289,85,
+309,99,
+369,109,
+357,119,
+343,116,
+312,137,
+340,165,
+345,190,
+317,197,
+314,218,
+259,188,
+261,188,
+248,145,
+253,133,
+250,95,
+219,76,
+177,57,
+88,40,
+60,56,
+41,63">
+                    <area class="region-3" shape="poly" href="#" alt="" coords="
+118,286,
+130,280,
+178,285,
+177,296,
+255,326,
+293,348,
+323,347,
+320,370,
+309,370,
+311,386,
+294,383,
+297,369,
+247,376,
+248,361,
+224,362,
+208,345,
+178,349,
+152,336,
+151,312,
+122,297
+">
+                    <area class="region-4" shape="poly" href="#" alt="" coords="
+376,244
+387,239
+414,236,
+429,245,
+433,263,
+417,271
+">
+                    <area class="region-5" shape="poly" href="#" alt="" coords="
+415,275,
+454,257,
+463,261,
+462,294,
+441,299,
+435,297,
+424,304,
+423,313,
+414,317,
+409,308,
+395,313,
+391,308,
+402,284
+">
+                    <area class="region-7" shape="poly" href="#" alt="" coords="
+438,414,
+466,401,
+479,407,
+455,425
+">
+                </map>
+                <img usemap="#regions" class="no-gallery" src="img/map.png">
+                <img class="hover region-2" src="img/map-hover-2.png">
+                <img class="hover region-3" src="img/map-hover-3.png">
+                <img class="hover region-4" src="img/map-hover-4.png">
+                <img class="hover region-5" src="img/map-hover-5.png">
+                <img class="hover region-7" src="img/map-hover-7.png">
+                <img class="hint region-2"  src="img/map-hint-2.png">
+                <img class="hint region-3"  src="img/map-hint-3.png">
+                <img class="hint region-4"  src="img/map-hint-4.png">
+                <img class="hint region-5"  src="img/map-hint-5.png">
+                <img class="hint region-7"  src="img/map-hint-7.png">
+                <img usemap="#regions" class="no-gallery" src="img/1x1.gif" width="624" height="552">
+            </div>
+            </div>
         </div>
-    </div>
     <div class="footer">
         <div class="wrapper">
             <div class="address white">

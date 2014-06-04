@@ -249,7 +249,7 @@ ul {
     padding: 0 2px;
 }
 
-.menu_header > li > a:hover {
+.menu_header > li:hover > a {
     color: #0070bb;
 }
 
@@ -280,7 +280,7 @@ ul {
     background-color: #eff0f1;
 }
 
-.drop_down.nav_menu a:hover {
+.drop_down.nav_menu li:hover > a{
     background-color: #ffffff;
 }
 
@@ -317,9 +317,12 @@ ul {
     margin-top: 20px;
     margin-bottom:35px;
     position: relative;
-
 }
-
+.image-text {
+    margin-top: 20px;
+    margin-bottom:35px;
+    position: relative;
+}
 .slidesjs-pagination {
     list-style: none;
     position: absolute;
@@ -491,9 +494,8 @@ ul {
 .footer {
     width: 100%;
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
     height: 45px;
-
 }
 
 .footer .wrapper {
@@ -630,16 +632,15 @@ ul {
 
 .summary {
     width: 522px;
-    height: 132px;
+    height: 130px;
     background-color: white;
     opacity: 0.8;
     -moz-opacity: 0.80;
     filter: alpha(opacity=80);
     position: absolute;
-    bottom: 0px;
-    right:0;
+    top: 332px;
+    right: 0;
 }
-
 
 .summary img {
     position: absolute;
@@ -659,9 +660,12 @@ ul {
     width: 240px;
     float: right;
 }
+.aside p{
+    margin-bottom: 25px;
+}
 
 .aside li{
-    margin: 25px 0;
+    margin-bottom: 25px;
 }
 
 .aside li ul > li{
@@ -683,11 +687,6 @@ ul {
     text-decoration: none;
 }
 
-
-.aside li:first-child {
-    margin-top: 0;
-}
-
 .aside.green_block{
 
     color: #8e8e8e;
@@ -699,10 +698,6 @@ ul {
 }
 .green_block {
     background-color: #f7f8f8;
-}
-
-.footer {
-    clear: both;
 }
 
 .figures {
@@ -1065,11 +1060,11 @@ td.center {
     font-weight: bold;
 }
 
-.image {
-    margin-bottom: 20px;
+.content_image {
+    margin: 20px 0;
 }
 
-.main.press h2 {
+.main.main_text h2 {
     margin-top: 45px;
 }
 
@@ -1185,24 +1180,17 @@ td.center {
     width: 590px;
 
 }
-
-
 .reconstruction-inside.summary {
     top: 182px;
-    width: 522px;
     height: 152px;
-    background-color: white;
-    opacity: 0.8;
-    position: absolute;
-
 }
-
 .main_content.main_text.reconstruction-main {
 
     margin-top:0;
 }
 .news_text {
-    margin-bottom: 40px;
+    margin-bottom: 80px;
+    width: 670px;
 }
 .news_text a {
     color:  #0070bb;
@@ -1211,12 +1199,62 @@ td.center {
 .news_text a:hover {
     text-decoration: underline;
 }
+.share42init {
+    margin: 20px 0 10px 0;
+}
+
+.reconstruction_main a {
+    color: #2a2a2a;
+}
+
+.reconstruction_main li{
+    margin: 15px 0;
+}
+
+.reconstruction_main li:hover > a {
+    color: #0070bb;
+    text-decoration: none;
+}
+.map{
+    position:relative;
+    width: 624px;
+    height: 302px;
+}
+
+.map img{
+    position:absolute;
+}
+
+.hint.region-2 {
+    margin-left: 246px;
+    margin-top: 11px;
+}
+
+.hint.region-3 {
+    margin-top: 316px;
+    margin-left: 15px;
+}
+
+.hint.region-4 {
+    margin-top: 110px;
+    margin-left: 406px;
+}
+
+.hint.region-5 {
+    margin-top: 202px;
+    margin-left: 424px;
+}
+
+.hint.region-7 {
+    margin-top: 359px;
+    margin-left: 454px;
+}
 /**
  * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
  * http://cssreset.com
  */
 html, body, div, span,
-h1, h2, h3, h4, h5, h6, p, img, ul, li,
+h1, h2, h3, h4, h5, h6, p, img, ul, li, map,
 form, label,
 table, caption, tbody, tfoot, thead, tr, th, td {
     margin: 0;
