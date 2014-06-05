@@ -41,5 +41,29 @@
 
     $('.hide').click(function(){
         this.parentNode.style.display = 'none';
-    })
+    });
+
+
+     $('.map area').mouseover(function() {
+         showMapRegion($(this).attr('class').split('region-').pop());
+     });
+     $('.map area').mouseout(function() {
+         hideMapRegion($(this).attr('class').split('region-').pop());
+     });
+     $('.map-links a').mouseover(function() {
+         showMapRegion($(this).attr('class').split('region-').pop());
+     });
+     $('.map-links a').mouseout(function() {
+         hideMapRegion(parseInt($(this).attr('class').split('region-').pop()));
+     });
+
+     showMapRegion = function(num) {
+         $('.map img.region-'+num).show();
+         $('.map-links .region-'+num).addClass('active');
+     };
+
+     hideMapRegion = function(num) {
+         $('.map img.region-'+num).hide();
+         $('.map-links .region-'+num).removeClass('active');
+     };
 });

@@ -1222,7 +1222,7 @@ td.center {
     margin-top: 40px;
     position:relative;
     width: 624px;
-    height: 552px;
+    height: 551px;
 }
 
 .map img{
@@ -1255,8 +1255,8 @@ td.center {
 }
 
 .hint.region-7 {
-    margin-top: 359px;
-    margin-left: 454px;
+    margin-top: 354px;
+    margin-left: 458px;
 }
 
 /**
@@ -1272,6 +1272,5 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     border: 0;
     font-size: 100%;
     font: inherit;
-
 }
 
