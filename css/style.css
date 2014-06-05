@@ -1215,10 +1215,10 @@ td.center {
     color: #0070bb;
     text-decoration: none;
 }
+
 .map{
     position:relative;
-    width: 624px;
-    height: 302px;
+    height: 652px;
 }
 
 .map img{
