@@ -792,6 +792,7 @@ p.name {
 
 .ceo_block {
     margin: 0 0 40px 0;
+    display: none;
 }
 
 .ceo_block img {
