@@ -1281,6 +1281,25 @@ td.center {
 .right {
     margin-top: 0;
 }
+
+.tariffs_archive h2 {
+    color: #0070bb;
+    font: normal 14px Tahoma, sans-serif;
+    margin: 35px 0;
+}
+
+.tariffs_archive a {
+    color: #2a2a2a;
+}
+
+.tariffs_archive li {
+    margin: 10px 0;
+}
+
+.tariffs_archive a:hover {
+    color: #0070bb;
+    text-decoration: none;
+}
 /**
  * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
  * http://cssreset.com
