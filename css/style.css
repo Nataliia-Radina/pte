@@ -666,11 +666,11 @@ ul {
     float: right;
 }
 .aside p{
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 .aside li{
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 .aside li.selected > a {
