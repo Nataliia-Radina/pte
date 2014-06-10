@@ -882,7 +882,7 @@ td.center {
     text-decoration: none;
 }
 
-.orders_main  ul {
+.orders_main table ul {
     margin-top: 20px;
     list-style-type: disc;
     padding-left: 20px
