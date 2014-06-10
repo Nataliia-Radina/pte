@@ -39,8 +39,9 @@
 
     $('.expander').simpleexpand();
 
-    $('.hide').click(function(){
+    $('.hide').click(function(e){
         this.parentNode.style.display = 'none';
+        e.preventDefault();
     });
 
 
