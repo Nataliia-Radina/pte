@@ -1252,6 +1252,35 @@ td.center {
 .questions {
     margin-bottom: 200px;
 }
+
+.documents > li > a {
+    color: #0070bb;
+    font-weight: bold;
+}
+.documents ul > li > a {
+    color: #2a2a2a;
+}
+.documents > li {
+    margin: 40px 0;
+}
+.documents  ul  li {
+    margin: 10px 0;
+}
+
+.documents a:hover {
+    text-decoration: none;
+}
+
+.documents .documents_reconstruction > li {
+    margin-bottom: 25px;
+}
+.documents .documents_reconstruction > li > a {
+    color: #0070bb;
+}
+
+.right {
+    margin-top: 0;
+}
 /**
  * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
  * http://cssreset.com
