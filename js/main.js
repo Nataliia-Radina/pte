@@ -40,6 +40,12 @@ $(function () {
     $('.expander').simpleexpand();
 
     $('.hide').click(function (e) {
+        if ($(".heading.vacancy").length > 0) {
+            $('html, body').animate({
+                scrollTop: $(".heading.vacancy").offset().top
+            }, 500);
+        }
+
         this.parentNode.style.display = 'none';
         e.preventDefault();
     });
@@ -78,4 +84,5 @@ $(function () {
             scrollTop: $(".heading.position").offset().top
         }, 500);
     });
+
 });

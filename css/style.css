@@ -150,11 +150,10 @@ img {
     height: 16px;
 }
 
-.home:hover {
+.home:hover, {
     background-position: 0 -26px;
     width: 18px;
     height: 16px;
-
 }
 
 .site_map {
@@ -559,7 +558,7 @@ ul {
 }
 
 .feedback_main {
-    padding: 45px 0 90px 0;
+    padding: 45px 0 200px 0;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
 }
@@ -664,13 +663,14 @@ ul {
 .aside {
     width: 240px;
     float: right;
+    margin-bottom: 50px;
 }
 .aside p{
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .aside li{
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .aside li.selected > a {
@@ -1024,10 +1024,7 @@ td.center {
 }
 
 .aside.abonent_right{
-    margin:110px 0 50px 0 ;
-}
-.aside.abonent_right p{
-    font-weight: bold;
+    margin-top: 110px;
 }
 
 .content_image {
@@ -1095,15 +1092,16 @@ td.center {
 
 .news_year a {
     color: #2a2a2a;
-    text-decoration: none;
 }
 .news_year a:hover {
     color: #0070bb;
+    text-decoration: none;
 }
 
 .news_year li.selected > a {
     color: #0070bb;
     font-weight:bold;
+    text-decoration: none;
 }
 
 .news_year li:before{
@@ -1131,18 +1129,13 @@ td.center {
 
 .report-block a {
     color:  #2a2a2a;
-    text-decoration: none;
+
 }
 
 .report-block a:hover {
     color:  #0070bb;
-    text-decoration: underline;
 }
 
-.report-block a.selected {
-    color:  #0070bb;
-    text-decoration: underline;
-}
 
 .report-month {
     float: left;
@@ -1234,12 +1227,16 @@ td.center {
     margin-left: 458px;
 }
 
-.questions a {
+.blue_list a {
     color: #0070bb;
 }
 
-.questions a:hover {
+.blue_list li:hover > a {
     text-decoration: none;
+}
+
+.blue_list li {
+    margin-bottom: 25px;
 }
 
 .questions li {
@@ -1250,29 +1247,17 @@ td.center {
     margin-bottom: 200px;
 }
 
-.documents > li > a {
+.blue_bold > li > a {
     color: #0070bb;
     font-weight: bold;
 }
-.documents ul > li > a {
-    color: #2a2a2a;
-}
-.documents > li {
+
+.blue_bold > li {
     margin: 40px 0;
 }
-.documents  ul  li {
-    margin: 10px 0;
-}
 
-.documents a:hover {
+.blue_bold li:hover > a {
     text-decoration: none;
-}
-
-.documents .documents_reconstruction > li {
-    margin-bottom: 25px;
-}
-.documents .documents_reconstruction > li > a {
-    color: #0070bb;
 }
 
 .right {
@@ -1285,15 +1270,15 @@ td.center {
     margin: 35px 0;
 }
 
-.tariffs_archive a {
+.black_list a {
     color: #2a2a2a;
 }
 
-.tariffs_archive li {
+.black_list li {
     margin: 10px 0;
 }
 
-.tariffs_archive a:hover {
+.black_list li:hover > a {
     color: #0070bb;
     text-decoration: none;
 }
@@ -1302,10 +1287,22 @@ td.center {
     margin: 5px 0 5px 20px;
 }
 
-.tariffs_right h3 {
+.h_grey {
     color: #8e8e8e;
     font-size: 14px;
     margin-bottom: 10px;
+}
+
+.h_blue {
+    color: #0070bb;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.h_black {
+    color: #2a2a2a;
+    font-size: 14px;
+    margin: 20px 0;
 }
 /**
  * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
