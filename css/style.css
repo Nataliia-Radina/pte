@@ -143,10 +143,11 @@ img {
 .sprite {
     background: url("../img/sprite.png") no-repeat top left;
 }
-/*
+
 @media (-webkit-min-device-pixel-ratio: 2) {
     .logo {
         background-position: -4px -0px;
+            background-size: 238px 30px;
     }
 
     .heating {
@@ -209,11 +210,11 @@ img {
         background-position: -229px -303px;
     }
 
-    #search-button
+    #search_button
     { background-position: -262px -303px;
     }
 
-    .search-button:hover {
+    .search_button:hover {
         background-position: -55px -310px;
     }
 
@@ -234,7 +235,7 @@ img {
         background-position: -353px -330px;
     }
 }
-*/
+
 
 .logo {
     background-position: -4px -64px;
