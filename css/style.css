@@ -1357,6 +1357,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
         background-position: -4px -0px;
         width: 238px;
         height: 30px;
+        background-size: 100%;
     }
 
     .heating {
