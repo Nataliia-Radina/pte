@@ -147,7 +147,6 @@ img {
 @media (-webkit-min-device-pixel-ratio: 2) {
     .logo {
         background-position: -4px -0px;
-            background-size: 238px 30px;
     }
 
     .heating {
