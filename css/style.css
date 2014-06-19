@@ -1361,7 +1361,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
 
     .heating {
         background-position: -246px -64px;
-        background-size: 64px 45px;
+        background-size: 128px 87px;
     }
 
     .heating:hover {
