@@ -326,9 +326,6 @@ ul {
     display: block;
 }
 
-.nav_menu {
-    background-color: #eff0f1;
-}
 
 .drop_down.nav_menu > li > a {
     text-transform: uppercase;
@@ -353,17 +350,17 @@ ul {
     padding: 6px 8px;
     background-color: #eff0f1;
 }
-.sub_drop_down {
-    background-color: #eff0f1;
-}
+
 .drop_down.nav_menu {
     top: 26px;
     border: 5px solid #eff0f1;
+    background-color: #eff0f1;
 }
 .sub_drop_down {
     left: 200px;
     top: 0;
     border: 5px solid #eff0f1;
+    background-color: #eff0f1;
 }
 
 .drop_down.nav_menu, .sub_drop_down {
@@ -1357,16 +1354,12 @@ only screen and (min-device-pixel-ratio: 1.5) { */
 
     .logo {
         background-position: -4px 0px;
-        width: 238px;
-        height: 30px;
         background-size: 100%;
     }
 
     .heating {
         background-position: -246px -64px;
         background-size: 100%;
-        width: 64px;
-        height: 45px;
     }
 
     .heating:hover {
