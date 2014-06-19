@@ -349,11 +349,13 @@ ul {
     font: normal 12px 'PT Sans Narrow', sans-serif;
     color: #6d6e71;
     display: block;
-    width: 200px;
+    width: 180px;
     padding: 6px 8px;
     background-color: #eff0f1;
 }
-
+.sub_drop_down {
+    background-color: #eff0f1;
+}
 .drop_down.nav_menu {
     top: 26px;
     border: 5px solid #eff0f1;
@@ -1348,13 +1350,13 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     border: 0;
 }
 
-@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+/* @media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
 only screen and (-moz-min-device-pixel-ratio: 1.5),
 only screen and (-o-min-device-pixel-ratio: 3/2),
-only screen and (min-device-pixel-ratio: 1.5) {
+only screen and (min-device-pixel-ratio: 1.5) { */
 
     .logo {
-        background-position: -4px -2px;
+        background-position: -4px 0px;
         width: 238px;
         height: 30px;
         background-size: 100%;
@@ -1463,4 +1465,4 @@ only screen and (min-device-pixel-ratio: 1.5) {
         background-position: -353px -330px;
         background-size: 100%;
     }
-}
+/* } */
