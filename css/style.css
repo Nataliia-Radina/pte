@@ -4,7 +4,16 @@ body, html {
     margin: 0;
 }
 
-
+.main_container {
+    min-height: 100%;
+    margin: 0;
+    padding-bottom: 45px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font: normal 14px/22px Tahoma, sans-serif;
+    color: #2a2a2a;
+    position: relative;
+}
 
 .main_container:after {
     content: " ";
