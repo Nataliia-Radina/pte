@@ -1361,6 +1361,8 @@ only screen and (min-device-pixel-ratio: 1.5) {
 
     .heating {
         background-position: -246px -64px;
+        -webkit-background-size: 128px 87px;
+        -moz-background-size: 128px 87px;
         background-size: 128px 87px;
     }
 
