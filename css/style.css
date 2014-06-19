@@ -143,6 +143,98 @@ img {
 .sprite {
     background: url("../img/sprite.png") no-repeat top left;
 }
+/*
+@media (-webkit-min-device-pixel-ratio: 2) {
+    .logo {
+        background-position: -4px -0px;
+    }
+
+    .heating {
+        background-position: -246px -64px;
+    }
+
+    .heating:hover { background-position: -4px -98px;
+    }
+
+    .reconstr {
+        background-position: -136px -155px;
+    }
+
+    .reconstr:hover {
+        background-position: -252px -155px;
+    }
+
+    .equipment {
+        background-position: -378px -64px;
+    }
+
+    .equipment:hover {
+        background-position: -368px -155px;
+        background-size: cover; }
+
+    .emergency {
+        background-position: -4px -189px;
+        margin-left: 10px;
+    }
+
+    .emergency:hover {
+        background-position: -91px -246px;
+    }
+
+    .home {
+        background-position: -204px -98px;
+    }
+
+    .home:hover {
+        background-position: -313px -295px;
+    }
+
+    .icon-blue {
+        background-position: -353px -295px;
+    }
+
+    .mail {
+        background-position: -392px -295px;
+    }
+
+    .mail:hover {
+        background-position: -431px -295px;
+    }
+
+    .on-top {
+        background-position: -204px -133px;
+    }
+
+    .icon-phone {
+        background-position: -229px -303px;
+    }
+
+    #search-button
+    { background-position: -262px -303px;
+    }
+
+    .search-button:hover {
+        background-position: -55px -310px;
+    }
+
+    .icon-address {
+        background-position: -4px -329px;
+    }
+
+    .movie-button {
+        background-position: -246px -246px;
+    }
+    .site-map {
+        background-position: -293px -330px;
+    }
+
+    .site-map:hover { background-position: -323px -330px;
+    }
+    .drop-down-arrow {
+        background-position: -353px -330px;
+    }
+}
+*/
 
 .logo {
     background-position: -4px -64px;
@@ -236,102 +328,7 @@ img {
 .mail:hover {
     background-position: -34px -329px;
 }
-/*
-@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
-only screen and (-moz-min-device-pixel-ratio: 1.5),
-only screen and (-o-min-device-pixel-ratio: 3/2),
-only screen and (min-device-pixel-ratio: 1.5) {
 
-    .logo {
-        background-position: -4px -0px;
-    }
-
-    .heating {
-        background-position: -246px -64px;
-    }
-
-    .heating:hover { background-position: -4px -98px;
-    }
-
-    .reconstr {
-        background-position: -136px -155px;
-    }
-
-    .reconstr:hover {
-        background-position: -252px -155px;
-    }
-
-    .equipment {
-        background-position: -378px -64px;
-    }
-
-    .equipment:hover {
-        background-position: -368px -155px;
-        background-size: cover; }
-
-    .emergency {
-        background-position: -4px -189px;
-        margin-left: 10px;
-    }
-
-    .emergency:hover {
-        background-position: -91px -246px;
-    }
-
-    .home {
-        background-position: -204px -98px;
-    }
-
-    .home:hover {
-        background-position: -313px -295px;
-    }
-
-    .icon-blue {
-        background-position: -353px -295px;
-    }
-
-    .mail {
-        background-position: -392px -295px;
-    }
-
-    .mail:hover {
-        background-position: -431px -295px;
-    }
-
-    .on-top {
-        background-position: -204px -133px;
-    }
-
-    .icon-phone {
-        background-position: -229px -303px;
-    }
-
-    #search_button
-    { background-position: -262px -303px;
-    }
-
-    .search_button:hover {
-        background-position: -55px -310px;
-    }
-
-    .icon-address {
-        background-position: -4px -329px;
-    }
-
-    .movie-button {
-        background-position: -246px -246px;
-    }
-    .site-map {
-        background-position: -293px -330px;
-    }
-
-    .site-map:hover { background-position: -323px -330px;
-    }
-    .drop-down-arrow {
-        background-position: -353px -330px;
-    }
-}
-*/
 #search_on_site {
     margin-left: 22px;
     height: 22px;
@@ -421,7 +418,7 @@ ul {
     display: block;
 }
 
-.nav_menu ul {
+.nav_menu {
     background-color: #eff0f1;
 }
 
