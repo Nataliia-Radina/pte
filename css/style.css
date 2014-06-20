@@ -1231,7 +1231,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     padding: 0;
     border: 0;
 }
-
+/* новые стили для иконок и лого*/
 
 @media (min--moz-device-pixel-ratio: 1.5),
 (-o-min-device-pixel-ratio: 3/2),
