@@ -1310,14 +1310,14 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 }
 
 #search_button:hover {
-    width: 14px;
-    height: 15px;
+    width: 13px;
+    height: 14px;
     background-position: 0 -411px;
 }
 
 #search_button {
-    width: 14px;
-    height: 15px;
+    width: 13px;
+    height: 14px;
     background-position: 0 -426px;
 }
 
