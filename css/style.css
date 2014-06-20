@@ -856,16 +856,25 @@ td.center {
     width: 240px;
     height: 25px;
     margin-top: 15px;
+    margin-top: 15px;
 
 }
 
-.quest_form label {
+.captcha-image{
+    margin: 25px 0 5px 0;
+}
+
+.quest_form label  {
     margin: 20px 10px 0 0;
     display: inline-block;
     width: 90px;
     text-align: right;
     float: left;
 }
+
+label[for='captcha-quest']{
+    margin: 10px 10px 0 0;
+    }
 
 .quest_form .invalid {
     border: 1px solid #ec555c;
@@ -881,9 +890,11 @@ td.center {
     left: 106px;
 
 }
+
 .fill_in_field div {
     position: relative;
 }
+
 .fill_in_field div p {
     text-align: left;
     padding: 2px 10px;
@@ -898,6 +909,7 @@ td.center {
 
 #position {
     height: 50px;
+    margin-top: 0;
 }
 
 .quest_form textarea {
@@ -1219,6 +1231,13 @@ td.center {
     font-size: 14px;
     margin: 20px 0;
 }
+
+.site-structure a {
+    color: #0070BB;
+}
+.site-structure > li > a {
+    font-weight: bold;
+}
 /**
  * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
  * http://cssreset.com
@@ -1298,7 +1317,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 .drop-down-arrow {
     width: 10px;
     height: 6px;
-    background-position: 0 -397px;
+    background-position: 0 -395px;
     margin: 0 0 2px 3px;
 }
 
@@ -1383,3 +1402,4 @@ table, caption, tbody, tfoot, thead, tr, th, td {
         background-size: 238px 591px;
     }
 }
+
