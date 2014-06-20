@@ -1298,7 +1298,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 .drop-down-arrow {
     width: 10px;
     height: 6px;
-    background-position: 0 -395px;
+    background-position: 0 -396px;
     margin: 0 0 2px 3px;
 }
 
@@ -1310,14 +1310,14 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 }
 
 #search_button:hover {
-    width: 13px;
-    height: 14px;
+    width: 14px;
+    height: 15px;
     background-position: 0 -411px;
 }
 
 #search_button {
-    width: 13px;
-    height: 14px;
+    width: 14px;
+    height: 15px;
     background-position: 0 -426px;
 }
 
