@@ -466,7 +466,7 @@ ul {
 }
 
 .on_top {
-    display: none;
+
     position: fixed;
     bottom: 45px;
     right: 40px;
@@ -1231,12 +1231,36 @@ label[for='captcha-quest']{
     font-size: 14px;
     margin: 20px 0;
 }
+.site-structure {
+    display: inline-block;
+    width: 32%;
+    vertical-align: top;
+}
 
-.site-structure a {
-    color: #0070BB;
+
+.site-structure li {
+    margin: 10px 0;
+}
+.contacts {
+    padding-top: 160px;
 }
 .site-structure > li > a {
+    text-transform: uppercase;
+    color: #0070bb;
+    font:  16px 'PT Sans Narrow', sans-serif;
+}
+
+.site-structure > ul > a {
+    color: #2a2a2a;
+}
+.site-structure-second {
     font-weight: bold;
+    padding-left: 30px;
+}
+
+.site-structure-third {
+    font-weight: normal;
+    padding-left: 30px;
 }
 /**
  * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
@@ -1391,6 +1415,8 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     height: 16px;
     background-position: 0 -575px;
 }
+
+
 
 @media (min--moz-device-pixel-ratio: 1.5),
 (-o-min-device-pixel-ratio: 3/2),
