@@ -466,7 +466,7 @@ ul {
 }
 
 .on_top {
-
+    display: none;
     position: fixed;
     bottom: 45px;
     right: 40px;
