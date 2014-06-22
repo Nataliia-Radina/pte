@@ -29,15 +29,18 @@ $(function () {
 
     var on_top = $('.on_top')[0];
 
-    $(document).scroll(function (e) {
-        if (document.body.scrollTop > 0 && on_top.style.display !== 'block') {
+    $(window).scroll(function (e) {
+        var top = (document.documentElement && document.documentElement.scrollTop) || document.body.scrollTop;
+        if (top > 0 && on_top.style.display !== 'block') {
             on_top.style.display = 'block';
-        } else if (document.body.scrollTop === 0 && on_top.style.display !== 'none') {
+        } else if (top === 0 && on_top.style.display !== 'none') {
             on_top.style.display = 'none';
         }
     });
 
-    $('.expander').simpleexpand();
+    if ($.simpleexpand !== undefined) {
+        $('.expander').simpleexpand();
+    }
 
     $('.hide').click(function (e) {
         if ($(".heading.vacancy").length > 0) {
