@@ -9,7 +9,7 @@ body, html {
     src: url('../fonts/PTSans-Narrow.eot?') format('eot'),
     url('../fonts/PTSans-Narrow.woff') format('woff'),
     url('../fonts/PTSans-Narrow.ttf')  format('truetype'),
-    url('../fonts/PTSans-Narrow.svg#PTSans-Narrow') format('svg');
+    url('../fonts/PTSans-Narrow.svg#PTSans-NarrowRegular') format('svg');
 }
 
 @font-face {
@@ -17,7 +17,7 @@ body, html {
     src: url('../fonts/PTSans-NarrowBold.eot?') format('eot'),
     url('../fonts/PTSans-NarrowBold.woff') format('woff'),
     url('../fonts/PTSans-NarrowBold.ttf')  format('truetype'),
-    url('../fonts/PTSans-NarrowBold.svg#PTSans-NarrowBold') format('svg');
+    url('../fonts/PTSans-NarrowBold.svg#PTSans-NarrowBoldRegular') format('svg');
 }
 
 .main_container {
