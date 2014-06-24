@@ -1308,7 +1308,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 .site-map:hover { background-position: 0px -540px; width: 13px; height: 16px;  }
 #search_button { background-position: 0px -561px; width: 17px; height: 17px;  }
 #search_button:hover { background-position: 0px -583px; width: 17px; height: 17px;  }
-.drop-down-arrow { background-position: 0px -605px; width: 9px; height: 6px;  }
+.drop-down-arrow { background-position: 0px -605px; width: 9px; height: 5px;  }
 .movie-button { background-position: 0px -615px; width: 31px; height: 26px;  }
 .icon-address { background-position: 0px -646px; width: 12px; height: 20px;  }
 .icon-phone { background-position: 0px -671px; width: 14px; height: 20px;  }
