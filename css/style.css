@@ -1291,28 +1291,28 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 
 
 .sprite { background: url('../img/sprite@1x.png') no-repeat top left;  }
-.sprite.logo { background-position: 0px 0px; width: 238px; height: 30px;  }
-.sprite.reconstr:hover { background-position: 0px -35px; width: 56px; height: 45px;  }
-.sprite.reconstr { background-position: 0px -85px; width: 56px; height: 45px;  }
-.sprite.equipment:hover { background-position: 0px -135px; width: 47px; height: 45px;  }
-.sprite.equipment { background-position: 0px -185px; width: 47px; height: 45px;  }
-.sprite.heating { background-position: 0px -235px; width: 64px; height: 45px;  }
-.sprite.heating:hover { background-position: 0px -285px; width: 64px; height: 45px;  }
-.sprite.emergency { background-position: 0px -335px; width: 41px; height: 45px;  }
-.sprite.emergency:hover { background-position: 0px -385px; width: 41px; height: 45px;  }
-.sprite.home { background-position: 0px -435px; width: 18px; height: 16px;  }
-.sprite.home:hover { background-position: 0px -456px; width: 18px; height: 16px;  }
-.sprite.mail { background-position: 0px -477px; width: 17px; height: 16px;  }
-.sprite.mail:hover { background-position: 0px -498px; width: 17px; height: 16px;  }
-.sprite.site-map { background-position: 0px -519px; width: 13px; height: 16px;  }
-.sprite.site-map:hover { background-position: 0px -540px; width: 13px; height: 16px;  }
+.logo { background-position: 0px 0px; width: 238px; height: 30px;  }
+.reconstr:hover { background-position: 0px -35px; width: 56px; height: 45px;  }
+.reconstr { background-position: 0px -85px; width: 56px; height: 45px;  }
+.equipment:hover { background-position: 0px -135px; width: 47px; height: 45px;  }
+.equipment { background-position: 0px -185px; width: 47px; height: 45px;  }
+.heating { background-position: 0px -235px; width: 64px; height: 45px;  }
+.heating:hover { background-position: 0px -285px; width: 64px; height: 45px;  }
+.emergency { background-position: 0px -335px; width: 41px; height: 45px;  }
+.emergency:hover { background-position: 0px -385px; width: 41px; height: 45px;  }
+.home { background-position: 0px -435px; width: 18px; height: 16px;  }
+.home:hover { background-position: 0px -456px; width: 18px; height: 16px;  }
+.mail { background-position: 0px -477px; width: 17px; height: 16px;  }
+.mail:hover { background-position: 0px -498px; width: 17px; height: 16px;  }
+.site-map { background-position: 0px -519px; width: 13px; height: 16px;  }
+.site-map:hover { background-position: 0px -540px; width: 13px; height: 16px;  }
 #search_button { background-position: 0px -561px; width: 17px; height: 17px;  }
 #search_button:hover { background-position: 0px -583px; width: 17px; height: 17px;  }
-.sprite.drop-down-arrow { background-position: 0px -605px; width: 9px; height: 5px;  }
-.sprite.movie-button { background-position: 0px -615px; width: 31px; height: 26px;  }
-.sprite.icon-address { background-position: 0px -646px; width: 12px; height: 20px;  }
-.sprite.icon-phone { background-position: 0px -671px; width: 14px; height: 20px;  }
-.sprite.on-top { background-position: 0px -696px; width: 17px; height: 10px;  }
+.drop-down-arrow { background-position: 0px -605px; width: 9px; height: 5px;  }
+.movie-button { background-position: 0px -615px; width: 31px; height: 26px;  }
+.icon-address { background-position: 0px -646px; width: 12px; height: 20px;  }
+.icon-phone { background-position: 0px -671px; width: 14px; height: 20px;  }
+.on-top { background-position: 0px -696px; width: 17px; height: 10px;  }
 
 
 
@@ -1322,7 +1322,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 (min-device-pixel-ratio: 1.5),
 (min-resolution: 1.5dppx) {
     .sprite {
-        background-image: url("../img/sprite@2x2.png");
-        background-size: 238px 706px;
+        background-image: url('../img/sprite@2x2.png');
+        background-size: 238px 707px;
     }
 }
