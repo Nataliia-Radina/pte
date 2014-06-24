@@ -38,7 +38,7 @@ $(function () {
         }
     });
 
-    if ($.simpleexpand !== undefined) {
+    if ($().simpleexpand !== undefined) {
         $('.expander').simpleexpand();
     }
 
