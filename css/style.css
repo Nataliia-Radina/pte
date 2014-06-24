@@ -327,7 +327,7 @@ ul {
 
 .movie {
     top: 0px;
-    margin-left: 854px;
+    right: 30px;
     position: absolute;
     z-index: 100;
     width: 66px;
@@ -335,6 +335,7 @@ ul {
     background-color: #fff;
     color: #000;
     text-decoration: none;
+    display: inline-block;
 }
 
 .movie-button {
@@ -1383,7 +1384,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
     #search_button {
-        margin: 6px 3px 0 0;
+
     }
 }
 
