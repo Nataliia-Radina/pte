@@ -171,12 +171,10 @@ img {
 
 #search_button {
     position: absolute;
-    top: 4px;
-    right: 3px;
+    top: 0px;
+    right: 0px;
     background-color: transparent;
     border: none;
-    padding: 0;
-    margin: 0;
 }
 
 .phone_number {
@@ -328,7 +326,7 @@ ul {
 }
 
 .movie {
-    top: 145px;
+    top: 0px;
     margin-left: 854px;
     position: absolute;
     z-index: 100;
@@ -380,6 +378,7 @@ ul {
 }
 
 .main_links li {
+    vertical-align: top;
     width: 24%;
 }
 
@@ -1290,32 +1289,140 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 /* новые стили для иконок и лого*/
 
 
-.sprite { background: url('../img/sprite@1x.png') no-repeat top left;  }
-.logo { background-position: 0px 0px; width: 238px; height: 30px;  }
-.reconstr:hover { background-position: 0px -35px; width: 56px; height: 45px;  }
-.reconstr { background-position: 0px -85px; width: 56px; height: 45px;  }
-.equipment:hover { background-position: 0px -135px; width: 47px; height: 45px;  }
-.equipment { background-position: 0px -185px; width: 47px; height: 45px;  }
-.heating { background-position: 0px -235px; width: 64px; height: 45px;  }
-.heating:hover { background-position: 0px -285px; width: 64px; height: 45px;  }
-.emergency { background-position: 0px -335px; width: 41px; height: 45px;  }
-.emergency:hover { background-position: 0px -385px; width: 41px; height: 45px;  }
-.home { background-position: 0px -435px; width: 18px; height: 16px;  }
-.home:hover { background-position: 0px -456px; width: 18px; height: 16px;  }
-.mail { background-position: 0px -477px; width: 17px; height: 16px;  }
-.mail:hover { background-position: 0px -498px; width: 17px; height: 16px;  }
-.site-map { background-position: 0px -519px; width: 13px; height: 16px;  }
-.site-map:hover { background-position: 0px -540px; width: 13px; height: 16px;  }
-#search_button { background-position: 0px -561px; width: 17px; height: 17px;  }
-#search_button:hover { background-position: 0px -583px; width: 17px; height: 17px;  }
-.drop-down-arrow { background-position: 0px -605px; width: 9px; height: 5px;  }
-.movie-button { background-position: 0px -615px; width: 31px; height: 26px;  }
-.icon-address { background-position: 0px -646px; width: 12px; height: 20px;  }
-.icon-phone { background-position: 0px -671px; width: 14px; height: 20px;  }
-.on-top { background-position: 0px -696px; width: 17px; height: 10px;  }
+.sprite {
+    background: url('../img/sprite@1x.png') no-repeat top left;
+}
 
+.logo {
+    background-position: 0px 0px;
+    width: 238px;
+    height: 30px;
+}
 
+.reconstr:hover {
+    background-position: 0px -35px;
+    width: 56px;
+    height: 45px;  }
 
+.reconstr {
+    background-position: 0px -85px;
+    width: 56px;
+    height: 45px;
+}
+.equipment:hover {
+    background-position: 0px -135px;
+    width: 47px;
+    height: 45px;  }
+
+.equipment {
+    background-position: 0px -185px;
+    width: 47px;
+    height: 45px;  }
+
+.heating {
+    background-position: 0px -235px;
+    width: 64px;
+    height: 45px;  }
+
+.heating:hover {
+    background-position: 0px -285px;
+    width: 64px;
+    height: 45px;  }
+.emergency {
+    background-position: 0px -335px;
+    width: 41px;
+    height: 45px;  }
+
+.emergency:hover {
+    background-position: 0px -385px;
+    width: 41px;
+    height: 45px;  }
+
+.home {
+    background-position: 0px -435px;
+    width: 18px;
+    height: 16px;  }
+
+.home:hover {
+    background-position: 0px -456px;
+    width: 18px;
+    height: 16px;  }
+
+.mail {
+    background-position: 0px -477px;
+    width: 17px;
+    height: 16px;  }
+
+.mail:hover {
+    background-position: 0px -498px;
+    width: 17px;
+    height: 16px;  }
+
+.site-map {
+    background-position: 0px -519px;
+    width: 13px;
+    height: 16px;  }
+
+.site-map:hover {
+    background-position: 0px -540px;
+    width: 13px;
+    height: 16px;  }
+
+#search_button {
+    background-position: 0px -561px;
+    width: 17px;
+    height: 17px;
+    margin: 4px 3px 0 0;
+}
+
+#search_button:hover {
+    background-position: 0px -583px;
+    width: 17px;
+    height: 17px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    #search_button {
+        margin: 6px 3px 0 0;
+    }
+}
+
+.drop-down-arrow {
+    background-position: 0px -605px;
+    width: 9px;
+    height: 5px;
+    margin: 0 0 3px 3px;
+}
+
+.movie-button {
+    background-position: 0px -615px;
+    width: 31px;
+    height: 26px;  }
+
+.icon-address {
+    background-position: 0px -646px;
+    width: 12px;
+    height: 20px;
+    vertical-align: text-bottom;
+    margin: 12px 9px 0 0;
+}
+
+.icon-phone {
+    background-position: 0px -671px;
+    width: 14px;
+    height: 20px;
+    vertical-align: text-bottom;
+    margin: 12px 6px 0 0;
+}
+
+.on-top {
+    background-position: 0px -696px;
+    width: 17px;
+    height: 10px;
+    margin-right: 4px;
+}
+
+/* для retina display */
 @media (min--moz-device-pixel-ratio: 1.5),
 (-o-min-device-pixel-ratio: 3/2),
 (-webkit-min-device-pixel-ratio: 1.5),

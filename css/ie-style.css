@@ -1,9 +1,4 @@
 #search_button {
-
-    background-position: 5px -152px;
-
+ margin: 5px 3px 0 0;
 }
 
-#search_button:hover {
-    background-position: 5px -176px;
-}
