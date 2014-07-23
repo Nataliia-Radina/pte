@@ -121,6 +121,13 @@ img {
     float: left;
 }
 
+.drop-down-arrow {
+    width: 10px;
+    height: 6px;
+    margin: 0 0 2px 2px;
+    background-position: 0 -605px;
+}
+
 .dashed {
     border-bottom: 1px dashed #0070bb;
 }
@@ -317,7 +324,7 @@ ul {
     background-color: #eff0f1;
 }
 .sub_drop_down {
-    left: 200px;
+    left: 180px;
     top: 0;
     border: 5px solid #eff0f1;
     background-color: #eff0f1;
@@ -338,13 +345,17 @@ ul {
     margin-top: 20px;
     margin-bottom:35px;
     position: relative;
+    overflow: visible !important;
 }
 
+.slidesjs-container {
+    overflow: visible !important;
+}
 .slidesjs-pagination {
     list-style: none;
     position: absolute;
-    top: 425px;
-    left: 875px;
+    bottom: -30px;
+    right: 40px;
     display: block;
     visibility: visible;
     z-index: 999;
@@ -394,7 +405,7 @@ img {max-width:100%}
 
 .movie-button {
     background-position: 0px -615px;
-    margin: 10px 17px 0 17px;
+    margin: 9px 17px 0 17px;
     width: 31px;
     height: 26px;
 }
@@ -403,7 +414,12 @@ img {max-width:100%}
     font-size: 8px;
     text-align: center;
     vertical-align: top;
-    margin-top: -2px;
+    margin-top: -1px;
+}
+
+.movie a {
+    text-decoration: none;
+    color: #2a2a2a;
 }
 
 /*стили для меню с иконками на главной странице*/
@@ -485,6 +501,7 @@ img {max-width:100%}
     background-position: 0px -335px;
     width: 41px;
     height: 45px;
+    margin-left: 10%;
 }
 
 .nav_link_main:hover .emergency {
@@ -609,7 +626,7 @@ img {max-width:100%}
 }
 
 .on-top {
-    background-position: 0px -696px;
+    background-position: 0 -696px;
     width: 17px;
     height: 10px;
     margin-right: 4px;
@@ -837,7 +854,7 @@ img {max-width:100%}
 
 .ceo_picture a {
     color: #2a2a2a;
-    font: bold 18px/20px 'PT SansNarrow', sans-serif;
+    font: bold 18px/20px 'PT Sans Narrow', sans-serif;
     text-decoration: underline;
 }
 
@@ -969,6 +986,14 @@ td.center {
     width: 57%;
     margin-bottom: 30px;
     float: left;
+}
+
+.vacancy_main a {
+    color: #0070bb;
+}
+
+.vacancy_main a:hover {
+    text-decoration: none;
 }
 
 .vacancy_main li {
@@ -1251,7 +1276,7 @@ label[for='captcha-quest']{
 /* стили для разделов с районами реконструкции*/
 .reconstruction-inside.summary {
     bottom: 0;
-    height: 175px;
+    height: 160px;
 }
 
 .reconstruction-inside_main {
@@ -1452,12 +1477,20 @@ label[for='captcha-quest']{
     }
 }
 
-@media (max-width: 905px) {
+@media screen and (max-width: 915px) {
+
+    .summary p {
+       font-size: 14px;
+    }
+
     .main_links li {
         width: 20%;
         margin-right:4%;
     }
 
+    .emergency {
+        margin-left: 0;
+    }
     .vertical-align {
         vertical-align: top;
         margin-top: 0;
