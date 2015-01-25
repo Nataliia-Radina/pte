@@ -3,57 +3,55 @@
 <head>
     <meta charset="UTF-8"/>
     <link href="css/style.css" rel="stylesheet" type="text/css">
-    <link href="css/lightbox.css" rel="stylesheet" />
-    <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=cyrillic-ext' rel='stylesheet'
-          type='text/css'>
-    <title>О компании</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic-ext" rel="stylesheet" type="text/css">
+    <title>Главная страница</title>
     <script src="js/jquery-1.11.1.min.js"></script>
     <script src="js/jquery.slides.min.js"></script>
-    <script src="js/lightbox.js"></script>
     <!--[if IE 8]>
     <link href="css/ie-style.css" rel="stylesheet" type="text/css">
+    <script src="js/css3-mediaqueries.js"></script>
     <![endif]-->
 </head>
 <body>
 <div class="main_container">
-<div class="background_header"></div>
-<div class="container_header wrapper">
-    <div class="header">
-        <div class="pte_logo">
-            <a href="#">
-                <img src="img/logo.png" width="238" height="30" alt="ПЕТЕРБУРГТЕПЛОЭНЕРГО">
-            </a>
-        </div>
-        <div class="choose_location">
-            <a class="location_link" href="#">
-                <span class="dashed">Санкт-Петербург</span>
-                <img class="drop_down_arrow" src="img/drop-down-arrow.png" width="9px" height="6px">
-            </a>
-            <ul class="drop_down location_menu">
-                <li><a class="location_link" href="#">Cанкт Петербург</a></li>
-                <li><a class="location_link" href="#">Карелия</a></li>
-            </ul>
-        </div>
-        <div class="icons_and_search">
-            <a href="#">
-                <div class="icon home sprite">
-                </div>
-            </a>
-            <a href="#">
-                <div class="icon site_map sprite">
-                </div>
-            </a>
-            <a href="#">
-                <div class="icon mail sprite">
-                </div>
-            </a>
-
-            <div class="search-field">
-                <form name="search" action="/search" method="get" class="search_form">
-                    <input type="text" name="q" id="search_on_site">
-                    <button type="submit" name="search-button" id="search_button" class="sprite"></button>
-                </form>
+    <div class="background_header"></div>
+    <div class="container_header wrapper">
+        <div class="header">
+            <div class="pte_logo">
+                <a href="#">
+                    <div class="sprite logo"></div>
+                </a>
             </div>
+            <div class="choose_location">
+                <a class="location_link" href="#">
+                    <span class="dashed">Санкт-Петербург</span>
+                    <div class="sprite drop-down-arrow"></div>
+                </a>
+                <ul class="drop_down location_menu">
+                    <li><a class="location_link" href="#">Cанкт Петербург</a></li>
+                    <li><a class="location_link" href="#">Карелия</a></li>
+                </ul>
+            </div>
+            <div class="icons_and_search">
+                <a href="#">
+                    <div class="icon home sprite">
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="icon site-map sprite">
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="icon mail sprite">
+                    </div>
+                </a>
+
+                <div class="search-field">
+                    <form name="search" action="/search" method="get" class="search_form">
+                        <input type="text" name="q" id="search_on_site">
+                        <button type="submit" name="search-button" id="search_button" class="sprite"></button>
+                    </form>
+                </div>
 
             <div class="phone_number">+7 (812) 334-50-60</div>
         </div>
@@ -182,15 +180,16 @@
     <div class="footer">
         <div class="wrapper">
             <div class="address white">
-                <img src="img/address.png" width="12px" height="19px" class="icon_address"><span>194044 Санкт-Петербург, Б.
-                    Сампсониевский пр., д. 60</span>
+                <div class="sprite icon-address"></div><p>194044 Санкт-Петербург, Б.
+                Сампсониевский пр., д. 60</p>
             </div>
-            <div class="phone white"><img src="img/phone.png" width="14px" height="19px" class="icon_phone"><span>+7 (812)
-                    334 50 60</span>
+            <div class="phone white"><div class="sprite icon-phone"></div><p>+7 (812)
+                334 50 60</p>
             </div>
         </div>
     </div>
-<div class="on_top"><a href=""><img src="img/on-top.png" width="17px" height="10px">наверх</a></div>
+    <div class="on_top"><a href="#" onclick="window.scrollTo(0,0); return false;"><div class="on-top sprite"></div>наверх</a></div>
 </div>
+<script src="js/main.js"></script>
 </body>
 </html>

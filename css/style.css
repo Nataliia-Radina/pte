@@ -349,7 +349,7 @@ ul {
 }
 
 .slidesjs-container {
-    overflow: visible !important;
+    overflow: hidden;
 }
 .slidesjs-pagination {
     list-style: none;
