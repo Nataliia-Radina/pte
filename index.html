@@ -3,48 +3,216 @@
 <head>
     <meta charset="UTF-8"/>
     <link href="css/style.css" rel="stylesheet" type="text/css">
-    <title>Currency Translate
-    </title>
-    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic-ext" rel="stylesheet" type="text/css">
+    <title>Главная страница</title>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.slides.min.js"></script>
+    <!--[if IE 8]>
+    <link href="css/ie-style.css" rel="stylesheet" type="text/css">
+    <script src="js/css3-mediaqueries.js"></script>
+    <![endif]-->
 </head>
-
-<div class="container">
-    <header class="page-header clearfix">
-        <div class="logo"><a href="#"><img src="img/logo.png"></a></div>
-        <nav class="menu">
-            <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Plugin</a></li>
-                <li><a href="#">For partners</a></li>
-                <li><a href="#">Supported currencies</a></li>
-            </ul>
-        </nav>
-    </header>
-    <div class="gradient"></div>
-    <div class="main">
-        <h1 class="page-heading">One click currency switch, works everywhere</h1>
-
-        <form>
-            <input type="url" placeholder="Web page URL" id="page-url"><p class="label">to</p><div class="currency-select"><select id="currency-type">
-                <option value="USD">USD</option>
-                <option value="EUR">EUR</option>
-                <option value="GBP">GBP</option>
-                <option value="BTC">BTC</option>
-            </select></div>
-        </form>
-    </div>
-
-    <footer class="page-footer">
-        <div class="left"><p><span>Try out <a href="#">Chrome plugin</a></span></p>
-
-            <p>Have currency translate within a touch</p></div>
-        <div class="right"><p><span><a href="#">Place widget</a> to your store</span></p>
-
-            <p>Let your users switch easily</p></div>
-    </footer>
-    <div class="background"><img src="img/background.png"></div>
-</div>
-
 <body>
+<div class="main_container">
+    <div class="background_header"></div>
+        <div class="container_header wrapper">
+            <div class="header">
+                <div class="pte_logo">
+                    <a href="#">
+                        <div class="sprite logo"></div>
+                    </a>
+                </div>
+                <div class="choose_location">
+                    <a class="location_link" href="#">
+                        <span class="dashed">Санкт-Петербург</span>
+                        <div class="sprite drop-down-arrow"></div>
+                    </a>
+                    <ul class="drop_down location_menu">
+                        <li><a class="location_link" href="#">Cанкт Петербург</a></li>
+                        <li><a class="location_link" href="#">Карелия</a></li>
+                    </ul>
+                </div>
+                <div class="icons_and_search">
+                    <a href="#">
+                        <div class="icon home sprite">
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="icon site-map sprite">
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="icon mail sprite">
+                        </div>
+                    </a>
+
+                    <div class="search-field">
+                        <form name="search" action="/search" method="get" class="search_form">
+                            <input type="text" name="q" id="search_on_site">
+                            <button type="submit" name="search-button" id="search_button" class="sprite"></button>
+                        </form>
+                    </div>
+
+                    <div class="phone_number">+7 (812) 334-50-60</div>
+                </div>
+            </div>
+                <div class="nav_top">
+                    <ul class="menu_header">
+                        <li class="selected">
+                            <a href="#">О компании</a>
+
+                            <ul class="drop_down nav_menu">
+                                <li>
+                                    <a href="#">История компании</a>
+                                </li>
+                                <li>
+                                    <a href="#">Руководство</a>
+                                </li>
+                                <li>
+                                    <a href="#">Сотрудники компании, награжденные почетными наградами </a>
+                                </li>
+                                <li>
+                                    <a href="#">Реконструкция</a>
+
+                                    <ul class="sub_drop_down">
+                                        <li><a href="#">Петроградский район</a></li>
+                                        <li><a href="#">Курортный район</a></li>
+                                        <li><a href="#">Петродворцовый район</a></li>
+                                        <li><a href="#">Центральный и Адмиралтейский районы</a></li>
+                                        <li><a href="#">Пушкинский район</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Раскрытие информации</a>
+                                </li>
+                                <li>
+                                    <a href="#">Вакансии</a>
+                                </li>
+                                <li>
+                                    <a href="#">Контакты</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="#">Абоненту</a>
+                            <ul class="drop_down nav_menu abonentu">
+                                <li><a href="#">Тарифы</a></li>
+                                <li><a href="#">Приборы учета</a></li>
+                                <li><a href="#">Подключение к теплоснабжению</a></li>
+                                <li><a href="#">Телефоны аварийных служб</a></li>
+                                <li><a href="#">Часто задаваемые вопросы</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Пресс-служба</a>
+                            <ul class="drop_down nav_menu press">
+                                <li><a class="press_menu" href="#">СМИ о нас</a></li>
+                                <li><a class="press_menu" href="#">Контакты</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class=href="#">Контакты</a></li>
+                    </ul>
+                </div>
+        </div>
+    <div class="wrapper">
+        <div class="slideshow">
+            <div class="movie">
+                <a href="#"><div class="movie-button sprite"></div><p>смотреть ролик</p></a>
+            </div>
+            <div class="main_image">
+                <img src="img/main-image-1.jpg">
+                <img src="img/main-image-2.jpg">
+            </div>
+            <div class="main_slogan">
+                <img class src="img/main-slogan.png" alt>
+            </div>
+        </div>
+
+        <div class="main_links">
+            <ul>
+                <li>
+                    <a class="nav_link_main" href="#">
+                        <div class="main_icon reconstr sprite"></div><div class="vertical-align title">Реконструкция</div>
+                    </a>
+                </li>
+                <li>
+                    <a class="nav_link_main" href="#">
+                        <div class="main_icon emergency sprite"></div><div class="title">Аварийные службы</div>
+                    </a>
+                </li>
+                <li>
+                    <a class="nav_link_main" href="#">
+                        <div class="main_icon equipment sprite"></div><div class="vertical-align title">Приборы учета</div>
+                    </a>
+                </li>
+                <li>
+                    <a class="nav_link_main" href="#">
+                        <div class="main_icon heating sprite"></div><div class="title">Подключение к теплоснабжению</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="background_gradient"></div>
+    <div class="wrapper">
+        <div class="page_content">
+            <h1 class="heading uppercase">Новости</h1>
+                <div class="news_preview">
+                    <a href="#" class="news_link">
+                    <img src="img/news-1.png" width="109px" height="81px" class="preview_picture">
+
+                    <div class="preview_text">
+                        <p>
+                            <span class="blue news_date">01.08.2013</span>
+                        </p>
+                        <p>Команда ООО «Петербургтеплоэнерго» - бронзовый призер кубкового турнира Лиги
+                            чемпионовтеплоэнерго» - бронзовый призер кубкового турнира Лиги чемпионов ...<span
+                                    class="blue">&#62;&#62;</span></p>
+                    </div>
+                    </a>
+                </div>
+                <div class="news_preview">
+                    <a href="#" class="news_link">
+                    <img src="img/news-2.png" width="110px" height="83px" class="preview_picture">
+
+                    <div class="preview_text">
+                        <p>
+                            <span class="blue news_date">09.05.2013</span>
+                        </p>
+                        <p>На Пискаревском кладбище состоялась торжественно-траурная церемония возложения Пискаревском
+                            кладбище состоялась торжественно-траурная ...<span class="blue">&#62;&#62;</span></p>
+                    </div>
+                    </a>
+                </div>
+                <div class="news_preview">
+                    <a href="#" class="news_link">
+                    <img src="img/news-3.png" width="110px" height="82px" class="preview_picture">
+                    <div class="preview_text">
+                        <p>
+                            <span class="blue news_date">26.04.2013</span>
+                        </p>
+                        <p>«Петербургтеплоэнерго» приняло участие в общегородском субботникеПискаревском кладбище
+                            состоялась торжественно-траурная церемония ...<span class="blue">&#62;&#62;</span></p>
+                    </div>
+                    </a>
+                </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="wrapper">
+            <div class="address white">
+                <div class="sprite icon-address"></div><p>194044 Санкт-Петербург, Б.
+                    Сампсониевский пр., д. 60</p>
+            </div>
+            <div class="phone white"><div class="sprite icon-phone"></div><p>+7 (812)
+                    334 50 60</p>
+            </div>
+        </div>
+    </div>
+    <div class="on_top"><a href="#" onclick="window.scrollTo(0,0); return false;"><div class="on-top sprite"></div>наверх</a></div>
+</div>
+<script src="js/main.js"></script>
 </body>
 </html>
